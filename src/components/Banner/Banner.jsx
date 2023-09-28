@@ -1,5 +1,5 @@
 import './Banner-Style.css'
-import Fundo from './barber.jpg'
+import Fundo from './barber2.1.jpg'
 
 const Banner = () => (
         <div className='banner'>
