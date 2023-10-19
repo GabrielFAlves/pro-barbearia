@@ -1,0 +1,31 @@
+.sobre_fundo {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    padding: 5em;
+    margin: 0;
+    gap: 5em;
+}
+
+.sobre_fundo_texto {
+    color: white;
+    width: 450px;
+    padding-right: 200px;
+    border-right: 50px;
+    margin-right: 50px;
+}
+
+.sobre_imagem {
+    width: 450px;
+}
+
+.sobre_fundo_texto_p1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #b67315;
+}
+
+.sobre_fundo_texto_p2 {
+    font-size: 20px;
+}

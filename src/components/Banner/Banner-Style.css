@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 .banner {
+    display: flex;
     position: relative;
 }
 
@@ -54,9 +55,9 @@
 }
 
 .banner2 {
+    position: absolute;
     display: flex; /* Torna a div banner2 um contêiner flexível */
     flex-direction: column;
-    position: absolute;
     align-items: center; /* Centraliza os itens verticalmente */
     left: 20%;
 }
