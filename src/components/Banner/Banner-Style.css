@@ -3,22 +3,21 @@
 .banner {
     display: flex;
     position: relative;
+    width: 100%; /* Pode ser qualquer largura desejada */
+    height: 400px;
 }
 
-.banner_texto1{
+.banner_texto1, .banner_texto2 {
     text-align: center;
     color: #fff;
     padding: 20px; /* Adiciona algum espaço em torno do texto */
-    width: 20em;
+    width: 25em; /* Ajusta a largura para ocupar toda a largura do contêiner pai */
+    box-sizing: border-box;
 }
 
 .banner_texto2 {
-    text-align: center;
-    color: #fff;
     background-color: #be770cd3;
     border-radius: 20px;
-    padding: 20px; /* Adiciona algum espaço em torno do texto */
-    width: 25em;
     margin-bottom: 1em;
 }
 
@@ -55,6 +54,7 @@
 }
 
 .banner2 {
+    box-sizing: border-box;
     position: absolute;
     display: flex; /* Torna a div banner2 um contêiner flexível */
     flex-direction: column;
