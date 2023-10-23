@@ -1,0 +1,41 @@
+.fundo {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.img_madeira {
+    width: 100%;
+}
+
+.conteudo {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5em;
+    margin: 0;
+}
+
+.cv_texto {
+    color: white;
+    width: 450px;
+    padding-right: 200px;
+    border-right: 50px;
+    margin-right: 50px;
+}
+
+.h3_cv {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.p_cv {
+    font-size: 20px;
+}
+
+.cv_video iframe {
+    border-radius: 15px;
+}

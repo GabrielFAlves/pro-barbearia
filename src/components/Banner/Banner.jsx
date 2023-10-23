@@ -1,18 +1,19 @@
 import './Banner-Style.css'
-import Fundo from './barber2.1.jpg'
 
 const Banner = () => (
-        <div className='banner'>
-            <div className='banner2'>
-                <p className='banner_nome'>França's Barber</p>
-                <p className='banner_texto_p banner_texto1'>MAIS DO QUE UMA BARBEARIA, UMA VERDADEIRA EXPERIÊNCIA OLD SCHOOL.</p>
-                <div className='banner_texto2'>
-                    <div><p className='banner_texto_p'><strong className='banner_texto_strong'>Bônus exclusivo:</strong> Agende online seu primeiro corte ou barba e ganhe um produto Urban Men.</p></div>
+    
+        <div className='super_container_banner'>
+            <div className='container_banner_texto'>
+                <p className='container_banner_nome'>França's Barber</p>
+                <p className='container_banner_texto1'>MAIS DO QUE UMA BARBEARIA, UMA VERDADEIRA EXPERIÊNCIA OLD SCHOOL.</p>
+                <div className='container_banner2'>
+                    <div><p className='banner2_texto'><strong className='banner2_texto_strong'>Bônus exclusivo:</strong> Agende online seu primeiro corte ou barba e ganhe um produto Urban Men.</p></div>
                 </div>
-                <button className='banner_texto_button'>QUERO AGENDAR AGORA</button>
+                <button className='banner2_texto_button'>QUERO AGENDAR AGORA</button>
             </div>
-            <img className='banner_imagem' src={Fundo} alt="imagem" />
         </div>
+    
 );
 
+// tentar colocar uma div fora da
 export default Banner;

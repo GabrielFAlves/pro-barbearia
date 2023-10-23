@@ -1,41 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
-.banner {
+.super_container_banner {
     display: flex;
-    position: relative;
-    width: 100%; /* Pode ser qualquer largura desejada */
+    background-image: url("./barber2.1.jpg");
+    background-size: cover; /* Isso faz com que a imagem cubra todo o contêiner */
+    background-position: center; /* Centraliza a imagem no contêiner */
     height: 400px;
 }
 
-.banner_texto1, .banner_texto2 {
+.container_banner {
+    display: flex;
+    width: 100%;
+}
+
+.container_banner_texto {
+    position: absolute;
+    padding-left: 5em;
+}
+
+.container_banner_nome {
+    font-family: 'Nothing You Could Do', cursive;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.container_banner_texto1 {
+    display: flex;
     text-align: center;
     color: #fff;
     padding: 20px; /* Adiciona algum espaço em torno do texto */
     width: 25em; /* Ajusta a largura para ocupar toda a largura do contêiner pai */
-    box-sizing: border-box;
 }
 
-.banner_texto2 {
+.container_banner2 {
+    display: flex;
     background-color: #be770cd3;
+    padding: 20px;
+    width: 25em;
     border-radius: 20px;
     margin-bottom: 1em;
 }
 
 .banner_imagem {
+    display: flex;
     width: 100%;
 }
 
-.banner_texto_p {
+.banner2_texto {
     font-size: 20px;
     font-weight: bold;
     margin: 0 auto;
 }
 
-.banner_texto_strong {
+.banner2_texto_strong {
     font-size: x-large;
 }
 
-.banner_texto_button {
+.banner2_texto_button {
     width: 15em;
     height: 50px;
     background-color: rgb(0, 0, 0);
@@ -45,24 +68,7 @@
     color: white;
 }
 
-.banner_nome {
-    font-family: 'Nothing You Could Do', cursive;
-    color: white;
-    font-size: 50px;
-    margin-top: 50px;
-    margin-bottom: 0;
-}
-
-.banner2 {
-    box-sizing: border-box;
-    position: absolute;
-    display: flex; /* Torna a div banner2 um contêiner flexível */
-    flex-direction: column;
-    align-items: center; /* Centraliza os itens verticalmente */
-    left: 20%;
-}
-
-.banner_texto_button:hover {
+.banner2_texto_button:hover {
     background-color: rgb(71, 243, 3);
     color: black;
 }
