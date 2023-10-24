@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 .super_container_banner {
     display: flex;
@@ -6,6 +7,9 @@
     background-size: cover; /* Isso faz com que a imagem cubra todo o contêiner */
     background-position: center; /* Centraliza a imagem no contêiner */
     height: 400px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container_banner {
@@ -14,8 +18,10 @@
 }
 
 .container_banner_texto {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    padding-left: 5em;
+    align-items: center;
 }
 
 .container_banner_nome {
@@ -24,6 +30,7 @@
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 0;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 50);
 }
 
 .container_banner_texto1 {
@@ -32,6 +39,8 @@
     color: #fff;
     padding: 20px; /* Adiciona algum espaço em torno do texto */
     width: 25em; /* Ajusta a largura para ocupar toda a largura do contêiner pai */
+    font-size: larger;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 50);
 }
 
 .container_banner2 {

@@ -1,7 +1,6 @@
 import './Banner-Style.css'
 
 const Banner = () => (
-    
         <div className='super_container_banner'>
             <div className='container_banner_texto'>
                 <p className='container_banner_nome'>França's Barber</p>
@@ -12,7 +11,6 @@ const Banner = () => (
                 <button className='banner2_texto_button'>QUERO AGENDAR AGORA</button>
             </div>
         </div>
-    
 );
 
 // tentar colocar uma div fora da
