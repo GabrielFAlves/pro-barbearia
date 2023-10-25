@@ -1,23 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 .sobre_fundo {
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: black;
     width: 100%;
+    height: 100%;
     padding: 5em;
-    margin: 0;
-    gap: 5em;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .sobre_fundo_texto {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
     color: white;
-    width: 450px;
     padding-right: 200px;
-    border-right: 50px;
-    margin-right: 50px;
 }
 
 .sobre_imagem {
     width: 450px;
+    padding-right: 200px;
 }
 
 .sobre_fundo_texto_p1 {
@@ -28,4 +32,5 @@
 
 .sobre_fundo_texto_p2 {
     font-size: 20px;
+    padding-top: 2em;
 }

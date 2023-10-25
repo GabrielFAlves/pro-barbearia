@@ -1,5 +1,4 @@
 import "./Cv-Style.css"
-import Madeira from "./fundodemadeira.jpeg"
 
 const Cv = () => (
     <div className="Fundo">
@@ -23,7 +22,6 @@ const Cv = () => (
                 </iframe>
             </div>
         </div>
-        <img className="img_madeira" src={Madeira} alt="Plano de fundo" />
     </div>
 );
 

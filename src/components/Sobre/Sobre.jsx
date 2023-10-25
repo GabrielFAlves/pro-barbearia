@@ -3,7 +3,6 @@ import Corte from './barbearia_corte.png'
 
 const Sobre = () => (
     <div className='sobre_fundo'>
-
             <div className='sobre_fundo_texto'>
                 <p className='sobre_fundo_texto_p1'>A melhor barbearia da Barra da Tijuca</p>
                 <p className='sobre_fundo_texto_p2'>Não é exagero dizer que Barbearia Factory é a melhor barbearia da Barra da Tijuca, 
@@ -14,7 +13,6 @@ const Sobre = () => (
             <div>
                 <img className='sobre_imagem' src={Corte} alt="Corte" />
             </div>
-
     </div>
 );
 

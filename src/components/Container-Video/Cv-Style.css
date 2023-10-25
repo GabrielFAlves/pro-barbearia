@@ -1,22 +1,19 @@
 .fundo {
     display: flex;
-    position: relative;
     width: 100%;
     height: 400px;
 }
 
-.img_madeira {
-    width: 100%;
-}
-
 .conteudo {
     display: flex;
-    position: absolute;
     align-items: center;
     justify-content: center;
     width: 100%;
     padding: 5em;
     margin: 0;
+    background-image: url("./madeirafundo.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .cv_texto {
