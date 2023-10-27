@@ -41,6 +41,7 @@
     width: 25em; /* Ajusta a largura para ocupar toda a largura do contêiner pai */
     font-size: larger;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 50);
+    font-weight: bold;
 }
 
 .container_banner2 {

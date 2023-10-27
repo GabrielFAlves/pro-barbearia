@@ -1,8 +1,8 @@
 import './Sobre-Style.css'
-import Corte from './barbearia_corte.png'
+import Corte from './caveira.png'
 
 const Sobre = () => (
-    <div className='sobre_fundo'>
+    <div className='sobre_fundo' id='sobre'>
             <div className='sobre_fundo_texto'>
                 <p className='sobre_fundo_texto_p1'>A melhor barbearia da Barra da Tijuca</p>
                 <p className='sobre_fundo_texto_p2'>Não é exagero dizer que Barbearia Factory é a melhor barbearia da Barra da Tijuca, 

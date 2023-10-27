@@ -26,3 +26,8 @@
     font-family: 'Nothing You Could Do', cursive;
     font-size: 25px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}

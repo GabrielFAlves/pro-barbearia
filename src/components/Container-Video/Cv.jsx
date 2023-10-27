@@ -1,7 +1,7 @@
 import "./Cv-Style.css"
 
 const Cv = () => (
-    <div className="Fundo">
+    <div className="Fundo" id="cortes">
         <div className="conteudo">
             <div className="cv_texto">
                 <h3 className="h3_cv">BARBA, CABELO E BIGODE</h3>

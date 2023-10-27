@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 .fundo {
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 100%;
 }
 
 .conteudo {
@@ -9,30 +11,36 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 100%;
     padding: 5em;
-    margin: 0;
     background-image: url("./madeirafundo.jpg");
     background-size: cover;
     background-position: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .cv_texto {
     color: white;
-    width: 450px;
-    padding-right: 200px;
+    width: 30em;
+    padding-right: 60px;
     border-right: 50px;
     margin-right: 50px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 50);
 }
 
 .h3_cv {
+    color: #ffffff;
     font-size: 42px;
     font-weight: bold;
+    color: #b67315;
 }
 
 .p_cv {
     font-size: 20px;
+    font-weight: bold;
+    padding-top: 2em;
 }
 
 .cv_video iframe {
-    border-radius: 15px;
+    padding-right: 200px;
 }

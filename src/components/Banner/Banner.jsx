@@ -1,7 +1,7 @@
 import './Banner-Style.css'
 
 const Banner = () => (
-        <div className='super_container_banner'>
+        <div className='super_container_banner' id='banner'>
             <div className='container_banner_texto'>
                 <p className='container_banner_nome'>França's Barber</p>
                 <p className='container_banner_texto1'>MAIS DO QUE UMA BARBEARIA, UMA VERDADEIRA EXPERIÊNCIA OLD SCHOOL.</p>
