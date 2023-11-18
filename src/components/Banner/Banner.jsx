@@ -8,7 +8,9 @@ const Banner = () => (
                 <div className='container_banner2'>
                     <div><p className='banner2_texto'><strong className='banner2_texto_strong'>Bônus exclusivo:</strong> Agende online seu primeiro corte ou barba e ganhe um produto Urban Men.</p></div>
                 </div>
-                <button className='banner2_texto_button'>QUERO AGENDAR AGORA</button>
+                <a href="https://api.whatsapp.com/send?phone=21976806547" target="_blank">
+                    <button class="glow-on-hover" type="button">Agende agora!!!</button>
+                </a>
             </div>
         </div>
 );
