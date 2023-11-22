@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.container-footer{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(39, 23, 7);
+    width: 100%;
+    color: #282C34;
+    text-align: left;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+    text-align: left;
+    width: 100%;
+}
+
+.ancora-footer{
+    text-decoration: none;
+    margin-top: 0.8em;
+    color: #646b81;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+}
+
+.ancora-footer:hover{
+    color: #8b91a1;
+}
+
+.img-footer{
+    width: 300px;
+}
+
+.container-conteudo{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 5em;
+}
+
+.p-footer{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #646b81;
+}
+
+.container-infos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6em;
+    gap: 1em;
+}
+
+.container-menu{
+    margin-left: 3em;
+}
+
+.h2-footer{
+    font-size: 22px;
+    color: #9faacd;
+}
+
+.contato-footer{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .container-conteudo{
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .container-infos{
+        margin: 0;
+    }
+    .container-menu{
+        margin: 0;
+    }
+    .ancora-footer{
+        text-align: center;
+    }
+}

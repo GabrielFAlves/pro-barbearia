@@ -15,7 +15,7 @@ const ProductCarousel = ({ products, initialIndex }) => {
   };
 
   return (
-    <div className="product-carousel">
+    <div className="product-carousel" id='produtos'>
       <Slider {...settings}>
         {/* Mapeia os produtos e renderiza cada produto como um slide */}
         {products.map((product) => (
