@@ -5,14 +5,14 @@ import './ProductCarousel.css';
 
 import Pomada from './pomada.png';
 import Shampoo from './shampoo.png';
-import Creme from './creme.png';
+import Kit from './kit.png';
 import Pos from './pos-barba.png';
 
 const ProdutosPage = () => {
   const products = [
     {
       id: 1,
-      name: 'Pomada Black',
+      name: 'Pomada',
       price: 29.99,
       image: Pomada,
     },
@@ -24,9 +24,9 @@ const ProdutosPage = () => {
     },
     {
       id: 3,
-      name: 'Creme',
+      name: 'Kit',
       price: 24.99,
-      image: Creme,
+      image: Kit,
     },
     {
       id: 4,

@@ -28,7 +28,7 @@ const ProductCarousel = ({ products, initialIndex }) => {
             {/* Detalhes do produto */}
             <div className="product-details">
               <h3 className='nome-produto'>{product.name}</h3>
-              <p>${product.price}</p>
+              <p className='preco-produto'>${product.price}</p>
               <a href="https://api.whatsapp.com/send?phone=21976806547" target="_blank">
                 <button class="glow-on-hover" type="button">Comprar</button>
               </a>
