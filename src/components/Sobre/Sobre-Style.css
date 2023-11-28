@@ -5,10 +5,8 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    width: 100%;
-    height: 100%;
-    padding: 5em;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
 }
 
 .sobre_fundo_texto {
@@ -16,12 +14,12 @@
     flex-direction: column;
     width: 30em;
     color: white;
-    padding-right: 200px;
+    gap: 1em;
 }
 
 .sobre_imagem {
     width: 450px;
-    padding-right: 200px;
+
 }
 
 .sobre_fundo_texto_p1 {
@@ -32,6 +30,24 @@
 
 .sobre_fundo_texto_p2 {
     font-size: 20px;
-    padding-top: 2em;
+
     font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .sobre_fundo {
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+    }
+
+    .sobre_fundo_texto {
+        width: 18em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1284px) {
+    .sobre_fundo_texto {
+        padding-left: 3em;
+    }
 }

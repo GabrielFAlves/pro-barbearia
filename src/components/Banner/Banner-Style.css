@@ -68,21 +68,6 @@
     font-size: x-large;
 }
 
-.banner2_texto_button {
-    width: 15em;
-    height: 50px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.banner2_texto_button:hover {
-    background-color: rgb(71, 243, 3);
-    color: black;
-}
-
 .glow-on-hover {
     width: 220px;
     height: 50px;
@@ -145,3 +130,14 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+@media (max-width: 767px) {
+    .container_banner_texto1 {
+        width: 18em;
+    }
+
+    .container_banner2 {
+        width: 18em;
+    }
+}
+

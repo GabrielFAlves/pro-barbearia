@@ -2,29 +2,24 @@
 
 .fundo {
     display: flex;
-    width: 100%;
-    height: 100%;
 }
 
 .conteudo {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding: 5em;
+    padding-top: 4em;
+    padding-bottom: 4em;
     background-image: url("./madeirafundo.jpg");
     background-size: cover;
     background-position: center;
     font-family: 'Ubuntu', sans-serif;
+    gap: 10em;
 }
 
 .cv_texto {
     color: white;
     width: 30em;
-    padding-right: 60px;
-    border-right: 50px;
-    margin-right: 50px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 50);
 }
 
@@ -42,5 +37,59 @@
 }
 
 .cv_video iframe {
-    padding-right: 200px;
+    border-radius: 2em;
+}
+
+@media (max-width: 767px) {
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza horizontalmente o conteúdo dentro de .conteudo */
+        gap: 2em;
+        margin: 0 auto;
+    }
+
+    .cv_video {
+        display: flex;
+        width: 100%; /* Garante que .cv_video ocupa 100% da largura de .conteudo */
+        justify-content: center;
+    }
+
+    .cv_video iframe {
+        border-radius: 2em;
+        box-sizing: border-box; /* Inclui as bordas e o preenchimento na largura total do elemento */
+
+    }
+
+    .cv_texto {
+        width: 18em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1284px) {
+    .conteudo {
+        display: flex;
+        align-items: center; /* Centraliza horizontalmente o conteúdo dentro de .conteudo */
+        gap: 2em;
+
+    }
+
+    .cv_video {
+        display: flex;
+        width: 100%; /* Garante que .cv_video ocupa 100% da largura de .conteudo */
+        justify-content: center;
+    }
+
+    .cv_video iframe {
+        border-radius: 2em;
+        box-sizing: border-box; /* Inclui as bordas e o preenchimento na largura total do elemento */
+        width: 450px;
+    }
+
+    .cv_texto {
+        display: flex;
+        flex-direction: column;
+        width: 30em;
+        padding-left: 3em;
+    }
 }
