@@ -31,3 +31,18 @@ a {
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 650px) {
+    .barra_nav_item {
+        display: none;
+    }
+
+    .barra_nav {
+        display: block;
+    }
+
+    .barra_nav_lista {
+        display: block;
+    }
+}
+

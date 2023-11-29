@@ -13,18 +13,13 @@
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #4c66da;
+    background: rgb(252, 252, 252);
   }
   
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
     height: 24px;
     width: 24px;
-  }
-  
-  /* Color/shape of close button cross */
-  .bm-cross {
-    background: #bdc3c7;
   }
   
   /*
@@ -38,7 +33,7 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
+    background: rgb(39, 23, 7);
     padding: 1em;
     font-size: 1.15em;
   }
@@ -56,7 +51,7 @@
     display: inline-block;
   }
   
-  @media (max-width: 1023px) {
+  @media (max-width: 650px) {
     .bubu{
         display: block;
     }    

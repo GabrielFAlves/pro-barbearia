@@ -22,7 +22,7 @@ class Burger extends React.Component {
             PRODUTOS
           </a>
           <a className="bm-item-list" href="#cortes">
-            CORTES MASCULINOS
+            CORTES
           </a>
         </Menu>
         </div>
