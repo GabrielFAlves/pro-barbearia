@@ -5,7 +5,7 @@ const Cv = () => (
         <div className="conteudo">
             <div className="cv_texto">
                 <h3 className="h3_cv">BARBA, CABELO E BIGODE</h3>
-                <p className="p_cv">Só na Factory você encontra especialistas em corte e tratamento de cabelo, barba e bigode,
+                <p className="p_cv">Só na GB você encontra especialistas em corte e tratamento de cabelo, barba e bigode,
                     além de um ambiente descontraído e produtos de alta qualidade. Claro, em meio a isso não
                     poderia faltar também o acompanhamento daquela cerveja gelada!</p>
             </div>
